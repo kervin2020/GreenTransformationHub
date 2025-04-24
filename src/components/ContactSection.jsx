@@ -47,7 +47,7 @@ function ContactSection() {
               <i className="fas fa-envelope"></i>
               <div>
                 <h3>Email</h3>
-                <p>contact@greentransformation.com</p>
+                <p>contact@batarootsofrenewal.com</p>
               </div>
             </div>
 

@@ -63,7 +63,7 @@ function Navbar() {
           ) : (
             <i className="fas fa-leaf"></i>
           )}
-          <span>Roots of Renewal BATA</span>
+          <span>BATA Roots of Renewal </span>
         </div>
 
         <button

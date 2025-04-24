@@ -36,7 +36,9 @@ function GallerySection() {
       <div className="container">
         <div className="section-title">
           <h2>Our Projects</h2>
-          <p>Discover our achievements in green transformation</p>
+          <p>
+            Discover our achievements in BATA Roots of Renewal transformation
+          </p>
         </div>
 
         {/* Filter Buttons */}

@@ -28,10 +28,10 @@ function AboutSection() {
               <h2>Transforming urban spaces into green havens</h2>
               <div className="divider"></div>
               <p>
-                At GreenSpace Transformations, we are dedicated to
-                revolutionizing urban environments by transforming unused or
-                degraded spaces into vibrant and sustainable green areas that
-                benefit communities and the planet.
+                At BATA roots of renewal, we are dedicated to revolutionizing
+                urban environments by transforming unused or degraded spaces
+                into vibrant and sustainable green areas that benefit
+                communities and the planet.
               </p>
               <p>
                 Our team of experts combines landscape architecture, urban

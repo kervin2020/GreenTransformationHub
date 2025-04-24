@@ -21,7 +21,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>GreenSpace Transformations</h3>
+          <h3>BATA Roots of Renewal</h3>
           <p>Let's transform our urban spaces into green havens together.</p>
           <div className="social-links">
             <a
@@ -77,15 +77,13 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h3>Contact</h3>
-          <p>Email: contact@greenspace.com</p>
+          <p>Email: contact@batarootsofrenewal.com</p>
           <p>Phone: +1 (555) 123-4567</p>
           <p>Address: 123 Nature Street, New York</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>
-          &copy; {currentYear} GreenSpace Transformations. All rights reserved.
-        </p>
+        <p>&copy; {currentYear} BATA Roots of Renewal. All rights reserved.</p>
       </div>
     </footer>
   );
