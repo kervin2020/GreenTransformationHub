@@ -54,14 +54,15 @@ function Navbar() {
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection("home")}>
-          {/* {!logoError ? ( */}
-          <img
-            src={logo}
-            alt="Roots of Renewal"
-            onError={() => setLogoError(true)}
-          />
-          {/* // ) : ( // <i className="fas fa-leaf"></i> */}
-          {/* // ) } */}
+          {!logoError ? (
+            <img
+              src={logo}
+              alt="Roots of Renewal"
+              onError={() => setLogoError(true)}
+            />
+          ) : (
+            <i className="fas fa-leaf"></i>
+          )}
           <span>Roots of Renewal BATA</span>
         </div>
 
