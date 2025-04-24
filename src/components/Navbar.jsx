@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import logo from "../public/logo.png";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -54,16 +54,15 @@ function Navbar() {
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection("home")}>
-          {!logoError ? (
-            <img
-              src="/logo.png"
-              alt="Green Transformation Hub"
-              onError={() => setLogoError(true)}
-            />
-          ) : (
-            <i className="fas fa-leaf"></i>
-          )}
-          <span>Green Transformation Hub</span>
+          {/* {!logoError ? ( */}
+          <img
+            src={logo}
+            alt="Roots of Renewal"
+            onError={() => setLogoError(true)}
+          />
+          {/* // ) : ( // <i className="fas fa-leaf"></i> */}
+          {/* // ) } */}
+          <span>Roots of Renewal BATA</span>
         </div>
 
         <button
