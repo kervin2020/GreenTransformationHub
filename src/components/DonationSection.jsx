@@ -110,12 +110,12 @@ function DonationSection() {
                   checked={isMonthly}
                   onChange={(e) => setIsMonthly(e.target.checked)}
                 />
-                Don mensuel
+                Monthly Donation
               </label>
             </div>
 
             <button type="submit" className="donation-button">
-              Faire un don
+              Make a Donation
             </button>
           </form>
         </div>

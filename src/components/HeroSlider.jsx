@@ -118,6 +118,7 @@ function HeroSlider() {
 
   return (
     <div
+      id="home"
       className="hero-slider"
       ref={sliderRef}
       onMouseEnter={handleMouseEnter}
