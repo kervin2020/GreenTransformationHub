@@ -10,8 +10,7 @@ function HeroSlider() {
   const slides = [
     {
       id: 1,
-      image:
-        "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800&auto=format&fit=crop&q=60",
+      image: require("../public/images/slider/s4.jpg"),
       title: "Transform Your Green Space",
       description: "Innovative solutions for a more sustainable future",
       buttonText: "Discover Our Projects",
@@ -19,8 +18,7 @@ function HeroSlider() {
     },
     {
       id: 2,
-      image:
-        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&auto=format&fit=crop&q=60",
+      image: require("../public/images/slider/slide1.jpg"),
       title: "Ecological Optimization",
       description: "Create smart and sustainable green spaces",
       buttonText: "Learn More",
@@ -28,8 +26,7 @@ function HeroSlider() {
     },
     {
       id: 3,
-      image:
-        "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&auto=format&fit=crop&q=60",
+      image: require("../public/images/slider/s3.jpg"),
       title: "Green Innovation",
       description: "Adopt the latest technologies for your green spaces",
       buttonText: "Get Started",

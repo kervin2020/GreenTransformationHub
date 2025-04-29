@@ -1,11 +1,10 @@
 export const teamMembers = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Founder & Lead Architect",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzM3NA&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "Sarah founded GreenSpace Transformations after 15 years in landscape architecture, with a vision to revitalize urban areas through innovative green solutions.",
+    name: "Emanuel Gardiner",
+    role: "Coach",
+    image: require("../public/Emanuel Gardiner.jpg"),
+    bio: "Emanuel is a seasoned coach with over 10 years of experience in landscape architecture and urban design. He specializes in creating sustainable and resilient landscapes.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -13,11 +12,10 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: "Michael Rodriguez",
-    role: "Environmental Scientist",
-    image:
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ0Mg&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "With a Ph.D. in Environmental Science, Michael brings expertise in sustainable ecosystems and climate-adaptive landscaping to our projects.",
+    name: "Jonathan Harlow",
+    role: "Coach",
+    image: require("../public/Jonathan Harlow.jpg"),
+    bio: "Jonathan is a landscape architect with a passion for integrating nature into urban environments. He has worked on various projects that focus on sustainability and community engagement.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -25,11 +23,10 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Aisha Patel",
-    role: "Urban Planner",
-    image:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ2MQ&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "Aisha specializes in integrating green spaces within complex urban environments, with a focus on community engagement and social impact.",
+    name: "Karamba Diallo",
+    role: "Project Manager",
+    image: require("../public/Karamba Diallo.jpg"),
+    bio: "Karamba is a project manager with a background in environmental science. He has a keen interest in permaculture and sustainable agriculture, and he works to ensure that projects are completed on time and within budget.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -37,11 +34,10 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Kerson Robergeau",
+    role: "Technical Leader - Tech Monster",
+    image: require("../public/Kerson Robergeau.jpg"),
+    bio: "Kerson is a technical leader with a strong background in software development and project management. He has a passion for technology and its application in landscape architecture.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -49,11 +45,10 @@ export const teamMembers = [
   },
   {
     id: 5,
-    name: "Robergeau kerson jean kenny",
-    role: "Software Engineer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Mulki Dayiib",
+    role: "Facilitator",
+    image: require("../public/Mulki Dayiib.jpg"),
+    bio: "Mulki is a facilitator with a background in community engagement and participatory design. She works to ensure that all voices are heard in the design process.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -61,11 +56,11 @@ export const teamMembers = [
   },
   {
     id: 6,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Phuoc Phan",
+    role: "Zen Thought Leader",
+    image: require("../public/Phuoc Phan.jpg"),
+
+    bio: "Phuoc is a thought leader with a focus on mindfulness and well-being in landscape architecture. He believes in the power of nature to heal and inspire.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -73,11 +68,11 @@ export const teamMembers = [
   },
   {
     id: 7,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Wendel Louis",
+    role: "Social Media Guru",
+    image: require("../public/Wendel Louis.jpg"),
+
+    bio: "Wendel is a social media expert with a background in marketing and communications. He helps to promote the team's work and engage with the community through various platforms.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -85,11 +80,10 @@ export const teamMembers = [
   },
   {
     id: 8,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Hexian Wu",
+    role: "Landscape Tech",
+    image: require("../public/Hexian wu.jpg"),
+    bio: "Hexian is a landscape technician with a background in horticulture and landscape maintenance. He works to ensure that landscapes are healthy and thriving.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -97,11 +91,11 @@ export const teamMembers = [
   },
   {
     id: 9,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Johny Estime",
+    role: "Spokesperson - Videographer",
+    image: require("../public/Johny Estime.jpg"),
+
+    bio: "Johny is a spokesperson and videographer with a background in media production. He helps to tell the team's story through video and photography.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -109,11 +103,11 @@ export const teamMembers = [
   },
   {
     id: 10,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Rolando Larmy",
+    role: "Idea Innovator",
+    image: require("../public/Rolando Larmy.jpg"),
+
+    bio: "Rolando is an idea innovator with a background in design thinking and creative problem-solving. He helps to generate new ideas and approaches to landscape architecture.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
@@ -121,23 +115,11 @@ export const teamMembers = [
   },
   {
     id: 11,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
-    socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-    },
-  },
-  {
-    id: 12,
-    name: "David Kim",
-    role: "Permaculture Designer",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVyc29ufHx8fHx8MTY4MzU2MzQ4Mw&ixlib=rb-4.0.3&q=80&w=300",
-    bio: "David designs self-sustaining ecosystems that require minimal maintenance while providing maximum ecological and community benefits.",
+    name: "Samuel Kelegrand",
+    role: "Alternate",
+    image: require("../public/Samuel Kelegrand.jpg"),
+
+    bio: "Samuel is an alternate team member with a background in landscape architecture and urban planning. He is passionate about creating sustainable and inclusive spaces for all.",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
