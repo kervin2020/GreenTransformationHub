@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../public/logo.png";
+// import logo from "../public/logo.png";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -56,7 +56,7 @@ function Navbar() {
         <div className="nav-logo" onClick={() => scrollToSection("home")}>
           {!logoError ? (
             <img
-              src={logo}
+              src="/images/logo.png"
               alt="Roots of Renewal"
               onError={() => setLogoError(true)}
             />
