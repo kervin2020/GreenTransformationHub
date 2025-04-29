@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import useScrollAnimation from "../hooks/useScrollAnimation";
+import videoFile from "../videos/vid.mp4"; // example path
 
 function AboutSection() {
   const sectionRef = useRef(null);
@@ -11,9 +12,25 @@ function AboutSection() {
         <div className="about-content">
           <div className="about-image">
             <div className="animate-on-scroll">
-              <img
-                src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f"
-                alt="Urban garden transformation"
+              {/* <iframe
+                width="640"
+                height="360"
+                src="https://www.youtube.com/embed/XVew1V9sNpA"
+                title="Roots of renewal"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe> */}
+              <video
+                src={videoFile}
+                poster="/images/Thumbnail.jpg"
+                controls
+                autoPlay
+                muted
+                loop
+                preload="auto"
+                playsInline
                 className="main-image"
               />
             </div>

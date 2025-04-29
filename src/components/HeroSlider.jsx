@@ -1,4 +1,10 @@
-import React, { useRef, useEffect, useState, useCallback } from "react";
+import React, {
+  useRef,
+  useEffect,
+  useState,
+  useCallback,
+  useMemo,
+} from "react";
 
 function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -7,32 +13,35 @@ function HeroSlider() {
   const autoplayRef = useRef(null);
   const sliderRef = useRef(null);
 
-  const slides = [
-    {
-      id: 1,
-      image: require("../public/images/slider/s3.jpg"),
-      title: "Transform Your Green Space",
-      description: "Innovative solutions for a more sustainable future",
-      buttonText: "Discover Our Projects",
-      buttonLink: "#projects",
-    },
-    {
-      id: 2,
-      image: require("../public/images/slider/slide1.jpg"),
-      title: "Ecological Optimization",
-      description: "Create smart and sustainable green spaces",
-      buttonText: "Learn More",
-      buttonLink: "#about",
-    },
-    {
-      id: 3,
-      image: require("../public/images/slider/S1.jpg"),
-      title: "Green Innovation",
-      description: "Adopt the latest technologies for your green spaces",
-      buttonText: "Get Started",
-      buttonLink: "#contact",
-    },
-  ];
+  const slides = useMemo(
+    () => [
+      {
+        id: 1,
+        image: require("../public/images/slider/s3.jpg"),
+        title: "Transform Your Green Space",
+        description: "Innovative solutions for a more sustainable future",
+        buttonText: "Discover Our Projects",
+        buttonLink: "#projects",
+      },
+      {
+        id: 2,
+        image: require("../public/images/slider/s5.jpg"),
+        title: "Ecological Optimization",
+        description: "Create smart and sustainable green spaces",
+        buttonText: "Learn More",
+        buttonLink: "#about",
+      },
+      {
+        id: 3,
+        image: require("../public/images/slider/S1.jpg"),
+        title: "Green Innovation",
+        description: "Adopt the latest technologies for your green spaces",
+        buttonText: "Get Started",
+        buttonLink: "#contact",
+      },
+    ],
+    []
+  );
 
   const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);

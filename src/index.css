@@ -122,6 +122,11 @@ h6,
   position: relative;
   display: inline-block;
 }
+.main-image {
+  object-fit: cover;
+  border-radius: 12px;
+  overflow: hidden;
+}
 
 .section-title h2::after {
   content: "";
@@ -661,10 +666,10 @@ h6,
 
 .experience-badge {
   position: absolute;
-  bottom: -2rem;
-  right: -2rem;
+  top: -2rem;
+  left: -6rem;
   background-color: var(--white);
-  padding: 2rem;
+  padding: 2;
   border-radius: var(--radius);
   box-shadow: var(--shadow-lg);
   text-align: center;
