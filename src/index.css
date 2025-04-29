@@ -666,8 +666,8 @@ h6,
 
 .experience-badge {
   position: absolute;
-  top: -2rem;
-  left: -6rem;
+  bottom: 1rem;
+  right: -2rem;
   background-color: var(--white);
   padding: 2;
   border-radius: var(--radius);
@@ -680,6 +680,16 @@ h6,
   justify-content: center;
   align-items: center;
   z-index: 2;
+}
+
+.experience-badge {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.experience-badge.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .experience-badge .years {

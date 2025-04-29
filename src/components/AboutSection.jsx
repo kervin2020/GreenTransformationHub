@@ -1,10 +1,21 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import useScrollAnimation from "../hooks/useScrollAnimation";
 import videoFile from "../videos/vid.mp4"; // example path
 
 function AboutSection() {
   const sectionRef = useRef(null);
+  const videoRef = useRef(null);
+  const [isInteracting, setIsInteracting] = useState(false);
+
   useScrollAnimation(sectionRef, { threshold: 0.1 });
+
+  const handleInteractionStart = () => {
+    setIsInteracting(true);
+  };
+
+  const handleInteractionEnd = () => {
+    setIsInteracting(false);
+  };
 
   return (
     <section id="about" className="about-section" ref={sectionRef}>
@@ -12,17 +23,8 @@ function AboutSection() {
         <div className="about-content">
           <div className="about-image">
             <div className="animate-on-scroll">
-              {/* <iframe
-                width="640"
-                height="360"
-                src="https://www.youtube.com/embed/XVew1V9sNpA"
-                title="Roots of renewal"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe> */}
               <video
+                ref={videoRef}
                 src={videoFile}
                 poster="/images/Thumbnail.jpg"
                 controls
@@ -32,9 +34,18 @@ function AboutSection() {
                 preload="auto"
                 playsInline
                 className="main-image"
+                onMouseEnter={handleInteractionStart}
+                onMouseLeave={handleInteractionEnd}
+                onFocus={handleInteractionStart}
+                onBlur={handleInteractionEnd}
               />
             </div>
-            <div className="experience-badge animate-on-scroll">
+
+            <div
+              className={`experience-badge animate-on-scroll ${
+                isInteracting ? "hidden" : ""
+              }`}
+            >
               <span className="years">10+</span>
               <span className="text">Years of experience</span>
             </div>
@@ -59,6 +70,7 @@ function AboutSection() {
             </div>
 
             <div className="features-grid animate-on-scroll">
+              {/* Feature Items */}
               <div className="feature-item">
                 <div className="icon-container">
                   <svg
