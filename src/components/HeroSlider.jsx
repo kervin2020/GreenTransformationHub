@@ -10,7 +10,7 @@ function HeroSlider() {
   const slides = [
     {
       id: 1,
-      image: require("../public/images/slider/s4.jpg"),
+      image: require("../public/images/slider/s3.jpg"),
       title: "Transform Your Green Space",
       description: "Innovative solutions for a more sustainable future",
       buttonText: "Discover Our Projects",
@@ -26,7 +26,7 @@ function HeroSlider() {
     },
     {
       id: 3,
-      image: require("../public/images/slider/s3.jpg"),
+      image: require("../public/images/slider/S1.jpg"),
       title: "Green Innovation",
       description: "Adopt the latest technologies for your green spaces",
       buttonText: "Get Started",
